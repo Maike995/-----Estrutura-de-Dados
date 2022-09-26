@@ -32,7 +32,7 @@ public class Cartela {
     
       int[][] organizador = new int[1][1];
       
-        for(int c = 0; c<100000; c++){
+        for(int c = 0; c<30; c++){
           for(int b = 0; b<5; b++){
             for(int a = 0; a<5; a++){
               if(cartelaGerada[b][a]>cartelaGerada[b][a+1]){
