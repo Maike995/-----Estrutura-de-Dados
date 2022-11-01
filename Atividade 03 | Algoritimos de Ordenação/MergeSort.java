@@ -20,8 +20,9 @@ public class MergeSort {
   public void intercalador(int[] lista,int inicio,int meio ,int fim){
     int[] aux = new int[lista.length];
     
-    for(int y = inicio; y<=fim;y++)
+    for(int y = inicio; y<=fim;y++){
       aux[y] = lista[y];
+    }
 
       int i = inicio;
       int j = meio+1;
